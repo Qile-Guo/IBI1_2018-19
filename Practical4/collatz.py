@@ -4,7 +4,7 @@ Created on Wed Mar 13 09:38:12 2019
 
 @author: 94979
 """
-x=5
+x=25
 #randomly enter a number
 print(x)
 while x != 1:
