@@ -1,0 +1,5 @@
+Practical 12 was a challenging practical 12 for me and I turned to professors and peers to finish all the tasks. I always had difficulty in using python language to show real medical situations. I encountered problems on how to randomly select infected/recovered people and document situations every time when doing the first task. With assistance of professors and peers, I finally solved it. Next time I will learn from thinking perspective of this practical and try to dive into questions by myself. 
+
+I also enjoyed this practical since I used python to model and solved medical problems (although simplified), enabling a better understanding of what I can do in Bioinformatics.
+
+The most important thing I learned was always being patient and cautious when trying to model and solving medical problems with python.
