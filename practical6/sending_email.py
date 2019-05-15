@@ -22,8 +22,8 @@ re_loginname = re.compile(r'(\S+)@')
 #open address information
 fhand = open(r'D:\test\IBI1_2018-19\practical6\address_information.csv','r')
 read=fhand.read()
-
 All = re.split(r',|\n',read) 
+fhand.close()
 
 #extract the email header
 for c in All:
@@ -43,12 +43,7 @@ for m in All:
         email.append(m)
 
 
-#read the body
-body = open(r'D:\test\IBI1_2018-19\practical6\body.txt')
-text = ''
-for line in body:
-    text += line #read body line by line
-body.close()      
+     
 str1=r'^[0-9A-Za-z_]+@[0-9A-Za-z_]+(\.[0-9A-Za-z_]+)+$'
 
 #filter to get all imformation for legal email address
@@ -61,6 +56,12 @@ for i in range(0,len(email)):
     else:
         print(email[i]+" "+":"+"Wrong Address")
       
+#read the body
+body = open(r'D:\test\IBI1_2018-19\practical6\body.txt')
+text = ''
+for line in body:
+    text += line #read body line by line
+body.close() 
 
 #send emails for every legal email address
 sender = input('From: ')
