@@ -1,0 +1,24 @@
+mouse and human sequence are compared
+BLOSUM62 raw score: 1091 
+BLOSUM62 normalized score: 4.914
+Identity: 89.64%
+
+mouse and random sequence are compared
+BLOSUM62 raw score: -250 
+BLOSUM62 normalized score: -1.126
+Identity: 5.86%
+
+human and random sequence are compared
+BLOSUM62 raw score: -250
+BLOSUM62 normalized score: -1.126
+Identity: 5.41%
+
+The BLOSUM62 scores are high for those who are similar.
+
+With 89.64% identity, human and mouse genes coding SOD2 protein are quite similar.
+There are lots of differences between mouse and random sequence or human and random sequence.
+
+BLOSUM62 raw score is normalized to the sequence length. The normalized score is relative score among alignments which can be used to compare sequences of different length.
+
+More parameters are required to compare two sequences more accurately.
+
